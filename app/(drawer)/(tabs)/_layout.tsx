@@ -6,7 +6,7 @@ export default function TabsLayout() {
       screenOptions={{
         headerShown: false, 
       }}>
-      <Tabs.Screen name="Home" />
+      <Tabs.Screen name="Home"  />
       <Tabs.Screen name="Service" />
       <Tabs.Screen name="Book" />
       <Tabs.Screen name="About" />
