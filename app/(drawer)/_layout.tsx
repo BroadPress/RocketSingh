@@ -66,6 +66,12 @@ export default function DrawerLayout() {
         }}
       />
 
+        <Drawer.Screen
+        name="AdminChangePassword"
+        options={{ drawerItemStyle: { display: 'none' } }}
+      />
+
+
     </Drawer>
   );
 }
